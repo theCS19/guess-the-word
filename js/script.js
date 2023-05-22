@@ -25,8 +25,7 @@ getWord();
 const dotRemover = function(word) {
     const dots = [];
     for (const letter of word) {
-        console.log(letter);
-        dots.push("●")
+        dots.push("●");
     };
 
     progressWord.innerText = dots.join("");
